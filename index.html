@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Akshaj Dev - A 20-year-old programmer passionate about building impactful web applications using modern technologies.">
+    <meta name="author" content="Akshaj Dev">
+    
+    <title>Akshaj Dev - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo">
+                    <a href="#home">akshaj dev</a>
+                </div>
+                <ul class="menu">
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#interests">Interests</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="container">
+                <div class="content">
+                    <figure class="profile">
+                        <img src="profile.jpeg" alt="Akshaj Dev - Web Developer">
+                    </figure>
+                    <h1 class="title">
+                        I do code and<br>
+                        make content <span class="highlight">about it!</span>
+                    </h1>
+                    <p class="description">
+                        Akshaj Dev is a 20-year-old programmer with a<br>
+                        passion for building things that matter. He loves<br>
+                        coding and is driven by the goal of making a<br>
+                        real impact in the world through technology.<br>
+                        His work reflects curiosity, purpose, and a desire<br>
+                        to grow with every project he takes on.
+                    </p>
+                    <div class="buttons">
+                        <a href="#contact" class="btn primary">Get In Touch</a>
+                        <a href="#" class="btn secondary">Download CV</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="experience">
+            <div class="container">
+                <h2 class="heading">EXPERIENCE WITH</h2>
+                <div class="skills">
+                    <button class="skill" type="button">JavaScript</button>
+                    <button class="skill" type="button">Node.js</button>
+                    <button class="skill" type="button">Express.js</button>
+                    <button class="skill" type="button">React.js</button>
+                    <button class="skill" type="button">Next.js</button>
+                    <button class="skill" type="button">MongoDB</button>
+                    <button class="skill" type="button">HTML5</button>
+                    <button class="skill" type="button">CSS3</button>
+                    <button class="skill" type="button">Tailwind CSS</button>
+                    <button class="skill" type="button">Bootstrap</button>
+                    <button class="skill" type="button">Flutter</button>
+                    <button class="skill" type="button">Git</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="interests" class="interests">
+            <div class="container">
+                <h2 class="heading">INTERESTS & HOBBIES</h2>
+                <ul class="list">
+                    <li class="item">Playing Piano</li>
+                    <li class="item">Watching F1</li>
+                    <li class="item">Playing Chess</li>
+                    <li class="item">Web Development</li>
+                    <li class="item">Tinkering with Electronics</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2 class="heading">PROJECTS</h2>
+                <div class="grid">
+                    <article class="card">
+                        <div class="content">
+                            <h3 class="name">YelpCamp</h3>
+                            <div class="tags">
+                                <span class="tag">Node.js</span>
+                                <span class="tag">Express.js</span>
+                                <span class="tag">MongoDB</span>
+                                <span class="tag">Bootstrap</span>
+                            </div>
+                            <p class="description">
+                                YelpCamp is a full-stack web application that allows users to create, review, and explore campgrounds around the world. It features a complete CRUD system with RESTful routes, user authentication, and authorization for secure access.
+                            </p>
+                            <div class="links">
+                                <a href="https://yelpcamp-0tlk.onrender.com" target="_blank" rel="noopener noreferrer" class="link">Live Demo</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <div class="content">
+                            <h3 class="name">Movie Explorer</h3>
+                            <div class="tags">
+                                <span class="tag">React.js</span>
+                                <span class="tag">TMDB API</span>
+                            </div>
+                            <p class="description">
+                                Movie Explorer is a dynamic React web app for discovering trending, popular, and upcoming movies using the TMDB API. It provides real-time search and filtering functionality, enabling users to browse through an extensive movie database effortlessly.
+                            </p>
+                            <div class="links">
+                                <a href="https://movie-explorer-swart.vercel.app" target="_blank" rel="noopener noreferrer" class="link">Live Demo</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <div class="content">
+                            <h3 class="name">YC Directory</h3>
+                            <div class="tags">
+                                <span class="tag">Next.js</span>
+                                <span class="tag">Tailwind CSS</span>
+                                <span class="tag">Sanity CMS</span>
+                            </div>
+                            <p class="description">
+                                YC Directory is a modern web platform for startup enthusiasts to pitch ideas, explore projects, and connect with founders. Built with Next.js for performance and Tailwind CSS for a sleek, responsive UI, it integrates Sanity CMS for live content management.
+                            </p>
+                            <div class="links">
+                                <a href="https://yc-directory-iota-seven.vercel.app" target="_blank" rel="noopener noreferrer" class="link">Live Demo</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2 class="heading">CONTACT ME</h2>
+                <form class="form" action="#" method="post">
+                    <div class="group">
+                        <input type="text" id="name" name="name" placeholder="Name" class="input" required>
+                    </div>
+                    <div class="group">
+                        <input type="email" id="email" name="email" placeholder="Email" class="input" required>
+                    </div>
+                    <div class="group">
+                        <input type="text" id="subject" name="subject" placeholder="Subject" class="input" required>
+                    </div>
+                    <div class="group">
+                        <textarea id="message" name="message" placeholder="Message" class="textarea" rows="6" required></textarea>
+                    </div>
+                    <button type="submit" class="button">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Akshaj Dev</p>
+        </div>
+    </footer>
+
+</body>
+</html>
