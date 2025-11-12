@@ -82,6 +82,11 @@ body {
     background: linear-gradient(135deg, #ff6b6b, #ff8e53, #d946ef, #9333ea);
     padding: 8px;
     margin-bottom: 20px;
+    transition: transform 0.3s;
+}
+
+.profile:hover {
+    transform: scale(1.1);
 }
 
 .profile img {
