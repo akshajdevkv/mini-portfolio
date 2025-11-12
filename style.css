@@ -398,14 +398,15 @@ body {
 
 @media (max-width: 480px) {
     .navbar .container {
-        flex-direction: column;
-        gap: 20px;
+        justify-content: center;
     }
 
     .menu {
-        flex-direction: column;
-        text-align: center;
-        gap: 10px;
+        display: none;
+    }
+
+    .hero {
+        padding-top: 120px;
     }
 
     .title {
